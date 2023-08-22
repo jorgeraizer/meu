@@ -133,7 +133,7 @@ h1
 
 }
 
-.titularesreservas
+.titulares
 {
 
     background-color: rgb(230, 226, 226);
@@ -169,19 +169,27 @@ h1
 
 .jogadores
 {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    overflow: auto;
+    flex-direction: row;
 }
 
-.jogador
+.clube
+{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.foto
 {
     width: 90px;
     height: 90px;
     background-color: gray;
     border-radius: 50%;
     margin-bottom: 10px;
-    margin-right: 200px;
 }
 
 
@@ -190,9 +198,19 @@ hr
     width: 310px;
 }
 
-.jogadores
+.nome
 {
+    text-transform:uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
 
+.time
+{
+    font-weight: bold;
+}
 
-
+.jorge
+{
+    margin-left: 18px;
 }
